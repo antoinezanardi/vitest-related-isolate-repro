@@ -1,0 +1,12 @@
+{
+  "name": "vitest-related-isolate-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run src/a.spec.ts src/b.spec.ts",
+    "test:related": "vitest related lib/index.ts"
+  },
+  "devDependencies": {
+    "vitest": "5.0.5"
+  }
+}
